@@ -1,0 +1,22 @@
+# Credentials: never committed
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+.secrets/
+
+# Runtime output (core/teams.py and stream/ write here)
+data/
+*.log
+*.jsonl
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS
+.DS_Store

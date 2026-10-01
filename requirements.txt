@@ -1,0 +1,6 @@
+httpx==0.28.1             # REST transport for both venues
+pydantic==2.13.4          # line models in core/schema.py
+cryptography==50.0.0      # request signing: Kalshi RSA-PSS, Polymarket US Ed25519
+websocket-client==1.9.0   # live order books and the private order-events stream (stream/)
+certifi==2026.7.22        # CA bundle for WebSocket TLS verification
+pytest==9.1.1             # test runner
